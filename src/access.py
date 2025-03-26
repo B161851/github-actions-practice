@@ -6,7 +6,7 @@ from pyspark.sql import SparkSession
 
 def createSparkSession():
     sparkSession = SparkSession.builder.appName("basics").getOrCreate()
-    spark = sparkSession
+    spark = sparkSession.sparkContext
 
     return spark
 
