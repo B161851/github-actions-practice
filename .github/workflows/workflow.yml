@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@V2
       
       - name: Run a one line script
-        run: echo Hello, Naresh!
+        run: echo Hello, World!
